@@ -1,10 +1,13 @@
 .container__menu-title > h1 {
   padding: 10px 0;
-  font-size: 4rem;
+  font-size: 1.5rem;
+
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container__menu-title hr {
-  margin: 20px 0 5px;
+@media screen and (min-width: 768px) {
+  .container__menu-title h1 {
+    font-size: 4rem;
+  }
 }

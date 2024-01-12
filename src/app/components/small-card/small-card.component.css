@@ -1,5 +1,4 @@
 .container__small-card {
-  width: 500px;
   display: flex;
   border-bottom: 1px solid gray;
   padding-bottom: 2rem;
@@ -10,7 +9,7 @@
   width: 200px;
   min-height: 200px;
   object-fit: cover;
-  object-position: 0%;
+  object-position: 50%;
   margin-right: 1rem;
 }
 
@@ -22,4 +21,10 @@
 .small-card__title h1 a {
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container__small-card {
+    width: 500px;
+  }
 }
