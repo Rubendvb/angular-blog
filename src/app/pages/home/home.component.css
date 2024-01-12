@@ -1,0 +1,6 @@
+.container__article {
+  margin-top: 30px;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
